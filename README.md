@@ -37,7 +37,7 @@ Este projeto consiste em um pipeline de ingestão de dados de sensores IoT a par
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/projeto-iot-dashboard.git
+git clone https://github.com/paulinhohvb/iot-data-pipeline.git
 cd projeto-iot-dashboard
 ```
 
