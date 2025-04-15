@@ -22,6 +22,8 @@ Este projeto consiste em um pipeline de ingestão de dados de sensores IoT a par
 .
 ├── data/
 │   └── IOT-temp.csv               # Arquivo de entrada com dados dos sensores
+├── img/                           # Pasta com imagens
+├── venv/                          # Pasta do ambiente virtual
 ├── pipeline.py                    # Pipeline de ingestão de dados
 ├── dashboard.py                   # Dashboard interativo
 ├── requirements.txt               # Dependências do projeto
