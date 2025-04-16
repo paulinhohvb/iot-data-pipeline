@@ -144,7 +144,6 @@ O Streamlit abrirá o navegador automaticamente com o dashboard interativo.
 
 ## 📝 Observações
 
-- A temperatura no CSV original está em uma escala multiplicada por 100.000. O ajuste é feito no código para exibir corretamente em °C.
 - O campo `noted_date` no CSV deve estar no formato `DD-MM-YYYY HH:MM`.
 
 ---
@@ -157,8 +156,6 @@ O Streamlit abrirá o navegador automaticamente com o dashboard interativo.
         Permite detectar dispositivos com leituras fora do padrão (muito mais quentes ou frios que os outros).
         Útil em diagnósticos de funcionamento ou de microclimas diferentes nos ambientes monitorados.
 
-    ⚠️ Observação:
-        Assim como nas outras views, aqui o campo temp ainda está na escala bruta (multiplicado por 100.000), então a conversão é feita no código Python, antes de exibir o gráfico.
 
     📈 Como é usada no dashboard?
         No primeiro gráfico de barras, com:
